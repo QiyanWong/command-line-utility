@@ -16,10 +16,10 @@ For ls command, I implemented following flags:
 
 ## Usage:
 1. Run `npm install`
-2. ls: `node commands.js ls <flag> [path(optional)]
-3. rm: `node commands.js ls <file name>
-4. mkdir: `node commands.js mkdir <dir name>
-5. rmdir: `node commands.js rmdir <dir name>
+2. ls: `node commands.js ls <flag> [path(optional)]`
+3. rm: `node commands.js ls <file name>`
+4. mkdir: `node commands.js mkdir <dir name>`
+5. rmdir: `node commands.js rmdir <dir name>`
 6. use following example commands on terminal:
 
 
