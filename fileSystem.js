@@ -127,7 +127,7 @@ const rmdir = (dircname) => {
 	fs.lstat(dircname, (err, stats) => {
 		if (err) return console.log(err); //Handle error
 		if (stats.isDirectory()) {
-			fs.unlink(dircname, (err) => {
+			fs.rmdir(dircname, (err) => {
 				if (err) {
 					if (err.code === 'ENOENT') console.log(`${dircname} no such directory`)
 					else throw err;
