@@ -2,10 +2,10 @@
 
 ## Summary
 I implemented some of commands of File System:  
-	  - **ls** https://en.wikipedia.org/wiki/Ls
-	  - rm     https://en.wikipedia.org/wiki/Rm_(Unix)
-	  - rmdir  https://en.wikipedia.org/wiki/Rmdir
-	  - mkdir  https://en.wikipedia.org/wiki/Mkdir
+	  - **ls**      https://en.wikipedia.org/wiki/Ls  
+	  - rm          https://en.wikipedia.org/wiki/Rm_(Unix)  
+	  - rmdir       https://en.wikipedia.org/wiki/Rmdir  
+	  - mkdir       https://en.wikipedia.org/wiki/Mkdir  
 For ls command, I implemented following flags:  
 	1.-l, --long : long format  
 	2.-F, --suffix : Add Suffix  
