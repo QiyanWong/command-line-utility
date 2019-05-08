@@ -6,7 +6,7 @@ I implemented some of commands of File System:
 	  - rm  
 	  - rmdir  
 	  - mkdir  
-####For ls command, I implemented following flags:  
+###For ls command, I implemented following flags:  
 	-l, --long : long format  
 	-F, --suffix : Add Suffix  
 	-t, --sortBymtime : sort the list of files by modification time  
@@ -24,7 +24,7 @@ I implemented some of commands of File System:
 
 ## Examples:
 ```
-####For rm, rmdir, mkdir comands:
+##For rm, rmdir, mkdir comands:
 Test Case 1: 
 $ node commands.js mkdir test_folder
 Folder created...
