@@ -6,7 +6,7 @@ I implemented some of commands of File System:
 	  - rm  
 	  - rmdir  
 	  - mkdir  
-###For ls command, I implemented following flags:  
+For ls command, I implemented following flags:  
 	-l, --long : long format  
 	-F, --suffix : Add Suffix  
 	-t, --sortBymtime : sort the list of files by modification time  
@@ -24,7 +24,7 @@ I implemented some of commands of File System:
 
 ## Examples:
 ```
-##For rm, rmdir, mkdir comands:
+For rm, rmdir, mkdir comands:
 Test Case 1: 
 $ node commands.js mkdir test_folder
 Folder created...
@@ -33,16 +33,8 @@ successfully deleted test.txt
 $ node commands.js rmdir test_folder
 successfully remove test_folder
 ```
-$ node commands.js ls 
-README.md
-commands.js
-fileSystem.js
-index.js
-node_modules
-package-lock.json
-package.json
 ```
-####For ls command:  
+For ls command:  
 Test Case 1: without any arguments
 
 $ node commands.js ls 
