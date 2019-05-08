@@ -1,0 +1,17 @@
+{
+  "name": "mycli",
+  "version": "1.0.0",
+  "description": "my UNIX Command Line Utility",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.20.0"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
