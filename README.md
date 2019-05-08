@@ -1,25 +1,25 @@
 # My Command Line Utility - File System
 
 ## Summary
-I implemented some of commands of File System:
-	-**ls**
-	-rm
-	-rmdir
-	-mkdir
-For ls command, I implemented following flags:
-	- -l, --long : long format
-	- -F, --suffix : Add Suffix
-	- -t, --sortBymtime : sort the list of files by modification time
-	- -s, --sortBysize : sort the list of files by size
-	- -h, --humanreadable : print sizes in human readable format
-	- -path argument is not part of original UNIX ls command. In my version, it is optional parameter, if user does not pass path argument, it will use current directory.
+I implemented some of commands of File System:  
+	- **ls**  
+	- rm  
+	- rmdir  
+	- mkdir  
+For ls command, I implemented following flags:  
+	- -l, --long : long format  
+	- -F, --suffix : Add Suffix  
+	- -t, --sortBymtime : sort the list of files by modification time  
+	- -s, --sortBysize : sort the list of files by size  
+	- -h, --humanreadable : print sizes in human readable format  
+	- -path argument is not part of original UNIX ls command. In my version, it is optional parameter, if user does not pass path  argument, it will use current directory.  
 
 ## Usage:
 1. Run `npm install`
-2. ls: `node commands.js ls <flag> [path(optional)]
-3. rm: `node commands.js ls <file name>
-4. mkdir: `node commands.js mkdir <dir name>
-5. rmdir: `node commands.js rmdir <dir name>
+2. ls: `node commands.js ls <flag> [path(optional)]`
+3. rm: `node commands.js ls <filename>`
+4. mkdir: `node commands.js mkdir <dirname>`
+5. rmdir: `node commands.js rmdir <dirname>`
 6. use following example commands on terminal:
 
 
