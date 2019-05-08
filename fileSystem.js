@@ -94,6 +94,7 @@ function getReadableFileSizeString(fileSizeInBytes) {
     return Math.max(fileSizeInBytes, 0.1).toFixed(1) + byteUnits[i];
 };
 
+//remove file
 const rm = (filename) => {
 	fs.lstat(filename, (err, stats) => {
 		if (err) return console.log(err); //Handle error
@@ -112,6 +113,7 @@ const rm = (filename) => {
 	});
 }
 
+//make directory
 const mkdir = (filename) => {
 	fs.mkdir(filename, {}, (err) => {
 		if (err) {
@@ -123,6 +125,7 @@ const mkdir = (filename) => {
 	});
 }
 
+//remove directory
 const rmdir = (dircname) => {
 	fs.lstat(dircname, (err, stats) => {
 		if (err) return console.log(err); //Handle error
